@@ -11,17 +11,17 @@ namespace FizzBuzz
         public string GetFizzBuzz(int number)
         {
             string text;
-            if (number % 3 == 0)
+            if (number % 15 == 0)
             {
-                text = "Fizz";
+                text = "FizzBuzz";
             }
             else if (number % 5 == 0)
             {
                 text = "Buzz";
             }
-            else if (number % 15 == 0)
+            else if (number % 3 == 0)
             {
-                text = "FizzBuzz";
+                text = "Fizz";
             }
             else
             {
